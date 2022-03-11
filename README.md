@@ -25,5 +25,5 @@ other users.
 ## Risk Assessment
 
 ## Agile Development
-
+![Kanban board](https://github.com/GurjinderB/exchange-app/blob/main/figures/Kanbanbord.png)
 ## Testing
