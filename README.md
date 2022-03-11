@@ -6,7 +6,7 @@
 * [Design](#Design)
 * [Risk Assessment](#Risk-Assessment)
 * [Agile Development](#Agile-Development)
-* [Testing] (#Testing)
+* [Testing](#Testing)
 
 ## Introduction
 This project emulates the basics of an exchange, allowing users to create their user profile and purchase Bitcoin or 
