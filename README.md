@@ -6,6 +6,7 @@
 * [Design](#Design)
 * [Risk Assessment](#Risk-Assessment)
 * [Agile Development](#Agile-Development)
+* [Testing] (#Testing)
 
 ## Introduction
 This project emulates the basics of an exchange, allowing users to create their user profile and purchase Bitcoin or 
@@ -21,6 +22,8 @@ The following database was designed to provide the functionality required for th
 The future goal of this application would be to retrieve real-time data for each of the cryptocurrencies on offer and to provide a mechanism to transfer holdings to
 other users.
 
-## Risk Assessment:
+## Risk Assessment
 
 ## Agile Development
+
+## Testing
