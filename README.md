@@ -32,3 +32,4 @@ other users.
 Future releases could include:
 * Including a date and time field in the transaction history so that users can track their transactions according to date and time too.
 * Add the ability to transfer cryptocurrency balance to other users, which are added to a friends list for example.
+* Display realtime data for the cryptocurrencies available to exchange users.
