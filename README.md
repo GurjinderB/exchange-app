@@ -27,3 +27,7 @@ other users.
 ## Agile Development
 ![Kanban board](https://github.com/GurjinderB/exchange-app/blob/main/figures/Kanbanbord.png)
 ## Testing
+
+## Additional Features
+Future releases could include:
+* Including a date and time field in the transaction history so that users can track their transactions according to date and time too.
