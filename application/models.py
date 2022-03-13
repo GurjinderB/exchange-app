@@ -3,7 +3,7 @@ from application._init_ import db
 class Account(db.Model):
     pkuserid = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100))
-    user_name = db.Column(db.String(50))
+    username = db.Column(db.String(50))
     balancegbp = db.Column(db.Float)
     transaction = db.relationship('Transaction', backref='account')
 
