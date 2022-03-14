@@ -44,3 +44,8 @@ Future releases could include:
 * Display realtime data for the cryptocurrencies available to exchange users.
 * Add password functionality for users.
 * Create an admin account where more other cryptocurrencies can be added through form functionality.
+
+## App
+![Application Home](https://github.com/GurjinderB/exchange-app/blob/main/figures/home.png)
+![Create Account](https://github.com/GurjinderB/exchange-app/blob/main/figures/create-account.png)
+![Trade](https://github.com/GurjinderB/exchange-app/blob/main/figures/trade.png)
