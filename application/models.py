@@ -10,11 +10,11 @@ class Account(db.Model):
 class Coin(db.Model):
     pkcoinid = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(5))
-    price = db.Column(db.Float)
     fktransaction = db.relationship('Transaction', backref='coin')
 
 class Transaction(db.Model):
     pktransactionid = db.Column(db.Integer, primary_key=True)
     type = db.Column(db.String(20))
+    amount = db.Column(db.Float)
     coinid = db.Column('coin_pkcoinid', db.Integer, db.ForeignKey('coin.pkcoinid'))
     userid = db.Column('account_pkuserid', db.Integer, db.ForeignKey('account.pkuserid'))

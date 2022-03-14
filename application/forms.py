@@ -5,9 +5,13 @@ class AddUser(FlaskForm):
     name = StringField('Name: ')
     username = StringField('User Name: ')
     balancegbp = FloatField('Initial Deposit: ')
-
+    submit = SubmitField('Create account')
+    
 class Transaction(FlaskForm):
     type = SelectField('Transaction Type: ', choices=[('buy', 'buy'), ('sell', 'sell')])
-    coinid = SelectField('Transaction Type', choices=[('Bitcoin', 'BTC'), ('Ethereum', 'ETH')])
-    userid = IntegerField('User making transaction')
-    submit = SubmitField('Create account')
+    amount = FloatField('Amount to spend: ')
+    coinid = SelectField('Select a coin: ', choices=[('Bitcoin', 'btc'), ('Ethereum', 'eth')])
+    userid = IntegerField('User making transaction: ')
+    submit = SubmitField('Create order')
+
+    
