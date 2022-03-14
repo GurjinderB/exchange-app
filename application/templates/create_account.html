@@ -1,0 +1,17 @@
+{% extends 'layout.html' %}
+{% block body %}
+<h2>Create Account</h2>
+<br>
+<div class="form">
+    <form method="POST" action="">
+        {{ form.hidden_tag() }}
+        {{ form.name.label }} {{form.name}}
+        <br>
+        {{ form.username.label }} {{form.username}}
+        <br>
+        {{ form.balancegbp.label }} {{form.balancegbp}}
+        <br>
+        {{ form.submit }}
+    </form>
+</div>
+{% endblock body %}

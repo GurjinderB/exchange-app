@@ -1,0 +1,11 @@
+<html>
+    <head>
+        <title>Cryptocurrency Exchange</title>
+    </head>
+    <body style="background-color: lightblue;">
+        <h1>Exchange App</h1>
+        <a href="{{ url_for('home') }}">Home</a> &#128512 <a href="{{ url_for('create_user') }}">Create Account</a> &#128512 <a href="{{ url_for('create_order') }}">Buy/Sell</a>
+        {% block body %}
+        {% endblock body %}
+    </body>
+</html>
