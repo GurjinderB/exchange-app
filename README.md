@@ -47,5 +47,7 @@ Future releases could include:
 
 ## App
 ![Application Home](https://github.com/GurjinderB/exchange-app/blob/main/figures/home.png)
+The price of Bitcoin and Ethereum changes based on the current price and a random number chosen from a normall distribution of mean 0 and standard deviation of 0.05.
 ![Create Account](https://github.com/GurjinderB/exchange-app/blob/main/figures/create-account.png)
 ![Trade](https://github.com/GurjinderB/exchange-app/blob/main/figures/trade.png)
+The when navigating to the Buy/Sell tab, the price of Bitcoin and Ethereum is the same as the home page.
